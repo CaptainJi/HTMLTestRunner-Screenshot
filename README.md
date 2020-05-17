@@ -5,8 +5,8 @@
  =======
 在HTMLTestRunnerCN基础上添加截图显示功能，截图可以使用url链接方式或base64编码模式直接加载到html文件中（会导致html文件变大，但是单html文件就可已显示图片，不会因为图片路径改变导致图片无法显示）<br>
 获取图片原理使用为根据控制台中的print输出的内容判断截图路径及文件名，其中“../screenshots/”为截图所在路径需替换成自己的截图路径；“截图：”为提取关键字，需调整为截图函数中print内的内容；截图函数的print内需加入“ end='' ”不然输出路径将带有'/n'--换行符导致报错<br>
-HTMLTestRunnerCN作者地址：https://github.com/findyou/HTMLTestRunnerCN/tree/dev
-HTMLTestRunne作者地址：http://tungwaiyip.info/software/HTMLTestRunner.html
+HTMLTestRunnerCN作者地址：https://github.com/findyou/HTMLTestRunnerCN/tree/dev<br>
+HTMLTestRunne作者地址：http://tungwaiyip.info/software/HTMLTestRunner.html<br>
 
 ###### 如何使用
 ```python
